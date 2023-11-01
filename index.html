@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1> <span>Basketball</span> Scoreboard</h1>
+    <div class="container">
+        <div class="team1scr">
+            <div class="scorestyle1">
+                <H2>TEAM A</H2>
+                <p id="count-Team1">0</p>
+            </div>
+            <button onclick="add1('Team1')">+1</button>
+            <button onclick="add2('Team1')">+2</button>
+            <button onclick="add3('Team1')">+3</button>    
+        </div>
+      <div class="team2scr">
+        <div class="scorestylet2">
+
+        </div>
+        <h2>TEAM B</h2>
+        <p id="count-Team2">0</p>
+        <button onclick="addp1('Team2')">+1</button>
+        <button onclick="addp2('Team2')">+2</button>
+        <button onclick="addp3('Team2')">+3</button>
+      </div>
+        <div class="resetButton">
+            <button onclick="resetScore()">Reset Score</button>
+        </div>
+    </div>
+    
+    <footer> Designed by ILYAS DOLLIAZAL</footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
